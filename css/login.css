@@ -1,0 +1,182 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, span {
+  margin: 0;
+  padding: 0; }
+
+fieldset, img {
+  border: 0; }
+
+img {
+  display: block; }
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol {
+  list-style: none; }
+
+body {
+  color: #666;
+  padding: 5px 0;
+  font: 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+  background: #fff;
+  /* overflow-y:scroll;*/
+  overflow-x: hidden; }
+
+span {
+  display: inline-block; }
+
+a {
+  display: inline-block;
+  color: #666;
+  text-decoration: none; }
+
+a:hover {
+  color: #c00;
+  text-decoration: underline; }
+
+#header-wrap {
+  height: 88px;
+  box-shadow: 0 4px 4px 0 #e6e6e6; }
+
+/*header*/
+#header {
+  width: 1000px;
+  height: 88px;
+  margin: 0 auto;
+  position: relative; }
+
+h1 {
+  float: left;
+  padding: 15px 0 10px 0;
+  width: 140px;
+  height: 63px; }
+
+.slogan {
+  float: left;
+  height: 63px;
+  width: 110px;
+  padding: 15px 0 10px 0; }
+
+/********************帮助中心*********************/
+.helps {
+  position: absolute;
+  top: 48px;
+  right: 7px;
+  height: 14px;
+  width: 70px;
+  cursor: pointer; }
+
+.helps:hover .helpsTab {
+  display: block; }
+
+.helps span {
+  float: left;
+  line-height: 14px;
+  height: 14px; }
+
+.pull-down-btn {
+  float: right;
+  display: inline-block;
+  height: 14px;
+  width: 15px;
+  background: url(../img/regLogin-8.png) -23px 0; }
+
+.helpsTab {
+  display: none;
+  position: absolute;
+  width: 85px;
+  top: -6px;
+  right: -7px;
+  border: 1px solid #ccc;
+  padding-top: 24px; }
+
+#helpList {
+  text-indent: 10px;
+  background: #fff; }
+
+#helpList a {
+  display: block;
+  width: 100%;
+  margin: 0;
+  color: #666; }
+
+#helpList li {
+  height: 24px;
+  line-height: 24px;
+  border-top: 1px dashed #ccc; }
+
+/********************register-link*******************/
+.register-link {
+  float: right;
+  padding-right: 100px;
+  height: 14px;
+  margin-top: 48px;
+  line-height: 14px;
+  font-size: 12px; }
+
+.register-link span {
+  float: left;
+  color: #999; }
+
+.register-link a {
+  float: left;
+  margin-left: 20px;
+  color: #0066cc; }
+
+.register-link a:hover {
+  text-decoration: underline; }
+
+/**************************main***************************/
+#main-wrap {
+  height: 600px;
+  background: url(../img/register/register_bg.jpg) center top; }
+
+#main {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto; }
+
+#loginArea {
+  height: 405px;
+  width: 350px;
+  background: #fff;
+  position: absolute;
+  top: 100px;
+  right: 0; }
+
+#login-first {
+  margin: 12px 40px 0; }
+
+.login-title {
+  height: 42px;
+  border-bottom: 1px solid #CECECE; }
+
+.login-title a {
+  line-height: 42px;
+  font-size: 16px; }
+
+.login-title b {
+  display: inline-block;
+  height: 12px;
+  font-size: 12px;
+  margin: 17px 17px 0; }
+
+/************************footer**********************/
+#footer-wrap {
+  height: 100px;
+  background: #FFFFFF;
+  padding-top: 50px; }
+
+.footer-p1 {
+  line-height: 30px;
+  text-align: center; }
+
+.footer-p2 {
+  line-height: 30px;
+  color: #f00;
+  text-align: center; }
+
+/*# sourceMappingURL=login.css.map */
